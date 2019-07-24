@@ -215,7 +215,7 @@ class SimpleComponent {
 }
 ----
 
-That's because the other decorators in Angular, such as `@Component` and `@Directive`, already perform the same function as `@Injectable`.
+That's because the other decorators in Angular, such as `@Component` and `@Directive`, already perform the same function as `@Injectable`. * if `@Component` and `@Directive`, already perform the same function as `@Injectable` then why we need to define the provider we can use as same as service ex :  as in constructor "otherService: OtherService" because it will inject all the constructor parameter 
 
 TIP: We _only_ need to use `@Injectable` on classes which don't already use one of the other Angular decorators.
 
